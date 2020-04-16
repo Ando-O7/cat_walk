@@ -1049,6 +1049,17 @@ MonoBehaviour:
   collisionLayer:
     serializedVersion: 2
     m_Bits: 1024
+--- !u!114 &1062928084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1062928082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371f0b1d8560a43b1897473e7ac8e2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1121666029
 GameObject:
   m_ObjectHideFlags: 0
