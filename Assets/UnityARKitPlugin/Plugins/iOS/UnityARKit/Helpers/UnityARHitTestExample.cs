@@ -44,7 +44,7 @@ namespace UnityEngine.XR.iOS
 				}
 			}
 			#else
-			if (Input.touchCount > 0 && m_HitTransform != null && !ISPointerOverUIObject)
+			if (Input.touchCount > 0 && m_HitTransform != null && !ISPointerOverUIObject())
 			{
 				var touch = Input.GetTouch(0);
 				if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)
